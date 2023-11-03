@@ -1,0 +1,41 @@
+.homeContainer {
+  margin: 20px 60px;
+}
+.boxes {
+  border: 1px solid black;
+}
+.box {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.box:last-child {
+  border-bottom: none;
+}
+
+.box:nth-last-child(2) {
+  visibility: hidden;
+}
+
+.box:hover {
+  color: red;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+[data-color="primary"] {
+  padding-top: 200px;
+  background-color: var(--page--color);
+}
+.boxes::before {
+  content: "Ajay is good";
+}
+
+.box::selection {
+  color: aqua;
+  background-color: var(--page--color);
+}
+
+:root {
+  --page--color: purple;
+}
