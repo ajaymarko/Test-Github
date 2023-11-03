@@ -1,0 +1,17 @@
+.main-container {
+  margin: 20px 60px;
+}
+
+.input-container {
+  margin: 8px 0;
+}
+
+.error-containner {
+  display: inline-block;
+  width: 4px !important;
+  color: red;
+}
+
+.error-bottom-div {
+  color: red;
+}

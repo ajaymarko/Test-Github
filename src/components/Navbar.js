@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const navigationMapping = ["home", "about", "contact", "career"];
+  const navigationMapping = ["home", "about", "contact", "career", "form"];
 
   const startCase = (text) => {
     return text.slice(0, 1).toUpperCase() + text.slice(1);
