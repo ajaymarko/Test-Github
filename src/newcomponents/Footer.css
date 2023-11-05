@@ -1,0 +1,8 @@
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #a2c5d3;
+  overflow: scroll;
+}

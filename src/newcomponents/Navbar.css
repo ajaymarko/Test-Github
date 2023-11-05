@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(162, 197, 211);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar .nav-link {
+  padding: 0 40px;
+  text-decoration: none;
+  color: black;
+}

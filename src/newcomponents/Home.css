@@ -1,0 +1,27 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 60px;
+}
+
+.box-container {
+  width: 45%;
+  height: 400px;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.box-container > div:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-container {
+  border: 1px solid gray;
+  margin: 20px 60px;
+  padding: 40px;
+  border-radius: 10px;
+}

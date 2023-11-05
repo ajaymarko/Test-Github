@@ -11,7 +11,7 @@ function App() {
   return (
     <InfoContext.Provider value={{ name: "Ajay Kumar Marko" }}>
       <div className="App">
-        <div className="heading">Learnig Javascript</div>
+        {/* <div className="heading">Learnig Javascript</div> */}
 
         <div>
           <Router>
